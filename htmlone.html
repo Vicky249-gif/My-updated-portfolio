@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Israel portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('mybackground.jpg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #f09308;
+            text-align: center;
+        }
+        header {
+            background-color: #340de2;
+            color: white;
+            border-bottom: 2px solid #fff;
+            padding: 1% 0;
+            text-align: center;
+            text-shadow: rgb(0, 0, 0);
+            text-transform: uppercase
+            ;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: background-color: tomato;
+        }
+        img {
+            width: 200px;
+            border-radius: 100%;
+            margin-top: 10px;
+        }
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: disc;
+            padding: 20px;
+        }
+        input, textarea {
+            max-width: 400px;
+            width: 80%;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #004080;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        content {
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+       
+    </style>
+</head>
+<body>
+<header>
+    <h1>Vicky portfolio</h1>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#hobbies">my Hobbies</a>
+        <a href="#contact">Contact</a>
+        <a href="#skills">my Skills</a>
+        <a href="#projects">Projects</a>
+    </nav>
+</header>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <img src="main.jpg.jpg" alt="my photo"/>
+    <p>Hello! i'm Israel, a student learning web development in OBAFEMI AWOLOWO UNIVERSITY ICT UNIT INTECU. I enjoy creating websites and learning new technologies across all areas in cybersecurity.This portfolio is my first project and i look forward to improving it over time and even create new projects.</p>
+        <h3>My hobbies</h3>
+        <ul>
+            <li>Playing and watching football</li>
+            <li>playing online games</li>
+            <li>learning new skills</li>
+        </ul>
+</section>
+<section id="skills" class="section">
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ul>
+</section>
+<section id="projects" class="section">
+    <h2>My Projects</h2>
+    <p>New projects will be added soon.......</p>
+</section>
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/myznwddl" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="email" name="email" placeholder="Your Email" required><br>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+    <p>Email: <a href="mailto:azeezisreal249@gmail.com">azeezisreal249@gmail.com</a></p>
+</section>
+<script>
+    function submitform() {
+        alert("Thank you for reaching out! israel will get back to you soon.");
+        return false; // Prevents actual form submission for now
+    }
+</script>
+
+</body>
+</html>
